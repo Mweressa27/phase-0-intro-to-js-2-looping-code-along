@@ -14,10 +14,11 @@ for (let i = 0; i < names.length; i++){
 return messages;
 }
 
-let int = 0;
-function countDown(int) {
-    while (int < 10) {
-console.log(int);
-int--;
+function countDown(number) {
+    // Start the loop with the given number and run until it reaches zero
+    while (number >= 0) {
+      console.log(number);  // Log the current number
+      number--;  // Decrement the number by 1
     }
-}
+  }
+  
